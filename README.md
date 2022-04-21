@@ -29,6 +29,18 @@ Dart has a rich set of core libraries, providing essentials for many everyday pr
 - Concurrent programming using isolates — independent workers that are similar to threads but don’t share memory, communicating only through messages (dart:isolate)
 - HTML elements and other resources for web-based applications that need to interact with the browser and the Document Object Model (DOM) (dart:html)
 
+# Dart: The platforms
+
+Dart’s compiler technology lets you run code in different ways:
+
+## Native platform:
+
+- For apps targeting mobile and desktop devices, Dart includes both a Dart VM with just-in-time (JIT) compilation and an ahead-of-time (AOT) compiler for producing machine code.
+
+## Web platform:
+
+- For apps targeting the web, Dart includes both a development time compiler (dartdevc) and a production time compiler (dart2js). Both compilers translate Dart into JavaScript.
+
 ## Static checker vs runtime checker
 
 ## Compiladores
