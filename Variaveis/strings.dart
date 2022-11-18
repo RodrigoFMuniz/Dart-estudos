@@ -30,6 +30,10 @@ const aConstList = [1, 2, 3];
 const validConstString = '$aConstNum $aConstBool $aConstString';
 // const invalidConstString = '$aNum $aBool $aString $aConstList';
 
+// Raw textos
+
+var raw = r'In a raw string, not even \n gets special treatment.';
+
 void main() {
   print(s1);
   print(s2);
@@ -49,4 +53,6 @@ void main() {
   assert(str2 == 'The + operator works, as well.');
 
   print(validConstString);
+
+  print(raw);
 }
