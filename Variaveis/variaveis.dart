@@ -1,12 +1,22 @@
 // Variáveis explicitamente declaradas
+
+// Integers
 int idade = 36;
-String? nome = null;
+
+// Strings
+String? nome = 'Rodrigo';
+
+// Double
 double distancia = 3.23;
+
+// Booleans
 bool verdade = true;
 
 //Variaveis dinamicamente tipadas por inferência de tipo através da atribuição
+
 var dinamicoVar =
     'Uma String'; // Com var uma vez declarado, não é possível mudar o tipo
+
 Object dinamicoObject =
     'Outra referência inferida como uma string'; // Com object uma vez declarado, é possível mudar o tipo
 
