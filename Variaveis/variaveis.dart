@@ -1,6 +1,6 @@
 // Variáveis explicitamente declaradas
 int idade = 36;
-String nome = 'Rodrigo';
+String? nome = null;
 double distancia = 3.23;
 bool verdade = true;
 
