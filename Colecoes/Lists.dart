@@ -8,7 +8,21 @@ List<dynamic> randomico = [
 List<int> numeros = [1, 2, 3, 4];
 
 void main() {
+  List<String> nomes = ['Rodrigo', 'Fernando'];
+
+  List<String> mod = nomes
+    ..add("Cacau")
+    ..add("Jéssica")
+    ..remove("Rodrigo");
+  mod.add('Jéssica');
   print(nomes);
+  print(identical(mod, nomes));
+  print(mod);
+  print(nomes);
+  print(nomes.hashCode);
+  print(mod.hashCode);
+  print(nomes);
+
   print(randomico);
   print(numeros);
   numeros.add(5);
