@@ -63,7 +63,26 @@ void main() {
 
   print('-' * 15);
 
-  numeros.where((element) => element.isOdd).forEach((element) {
-    print('Número $element');
-  });
+  numeros
+      .where((element) => element.isOdd)
+      .forEach((element) => print('Número $element'));
+
+  print('-' * 15);
+
+  List<int> aleatorio = List.filled(10, 11);
+  print(aleatorio);
+
+  print('-' * 15);
+
+  List<int> generat = List.generate(10, (i) => i * 10);
+  print(generat);
+
+  print('-' * 15);
+
+  List<int> generat2 = List.generate(10, funcao);
+  print(generat2);
+}
+
+int funcao(int pos) {
+  return pos * 20;
 }
